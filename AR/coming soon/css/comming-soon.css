@@ -1,0 +1,72 @@
+.comming-soon-page{
+     background: url(../img/comming-soon-00.jpg) no-repeat transparent;
+    padding: 90px 0;   
+    height: 100vh;
+}
+.comming-logo{
+    margin: 60px auto;
+    display: table;
+}
+.comming-subscribe h3{
+    color: white;
+    font-size: 20px;
+    margin: 0px 0 40px;
+}
+.newsletter-coming-soon .content-form .button-submit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    margin: 3px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 26px 30px;
+    border-radius: 26px;
+}
+.content-form{
+    position: relative;
+}
+.button-submit {
+    position: absolute;
+    right: 5px;
+    top: 4px;
+}
+.button-submit .btn{
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #a82582;
+    border-color: #a2287f;
+    border-radius: 26px;
+}
+.button-submit .btn:hover{
+    background: #b3328e;
+}
+
+.c_s_social{
+    padding: 15px 0;
+    margin-top: 40px;
+}
+.c_s_social ul li .fa{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid#d8d8d8;
+}
+.fb_icon_0:hover{
+    background: #3b5999;
+}
+.tw_icon_0:hover{
+    background: #55acee;
+}
+.in_icon_0:hover{
+    background: #0077B5;
+}
+.sky_icon_0:hover{
+    background: #00AFF0;
+}

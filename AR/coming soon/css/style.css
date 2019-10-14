@@ -1,0 +1,174 @@
+
+/*
+ -----------------------------------------------------
+| PRODUCT NAME:   BTL
+| -----------------------------------------------------
+| AUTHOR:     WESAM ALGMMAL
+| -----------------------------------------------------
+| EMAIL:      wesamalgmmal@gmail.com
+| -----------------------------------------------------
+| COPYRIGHT:    WESAMA ALGMMAL for web solutions
+| -----------------------------------------------------
+| WEBSITE:      wesamalgmmal.com
+| -----------------------------------------------------
+*/
+
+
+
+/** My Custom Style start **/
+body{
+    outline: 0 !important;
+/*        font-family: 'Oswald', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+}
+a:focus, a:hover{
+    outline: 0 !important;
+    text-decoration: none;
+}
+p, a, h2, h3, h4, h5, h6, span, ul, li, MARQUEE, input, button, .textarea, label, select, tr, table, th{
+    text-decoration: none;
+    outline: none;
+}
+p{
+    margin-bottom: 0;
+    padding: 5px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0px;
+    list-style: none;
+    padding: 0;
+}
+.pd_10{
+    padding: 20px;
+}
+h5{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/** My Custom Style end **/
+.header{
+
+}
+.top-bar {
+    padding: 15px 0;
+    overflow: hidden;
+    background: #0e93b3;
+}
+.list-left {
+    float: left;
+}
+.list-left ul li {
+    float: left;
+    margin: 0 0 0 35px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.list-right ul{
+    float: right;
+}
+.list-right ul li {
+    float: left;
+}
+.search-bar {
+    width: 170px;
+    position: relative;
+}
+.search-bar .form-control {
+    height: auto;
+    line-height: 0;
+    background: none;
+    padding-left: 30px;
+    color: #fff;
+}
+.search-bar a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], input, .form-control {
+    border: 0;
+    height: 50px;
+    background: #fff;
+    line-height: 50px;
+    box-shadow: none!important;
+    padding: 0 15px;
+    width: 100%;
+    border-radius: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.list-left ul li i {
+    margin: 0 20px 0 0;
+}
+
+/* Nav */
+.nav-holder{ background: #fff; text-align: center;}
+.nav-list{ display: inline-block;}
+.nav-list > ul > li{ float: left; position: relative;}
+.nav-list > ul > li > a{ font-size: 16px; padding: 30px 20px; font-family: 'Lato', sans-serif; font-weight: bold; text-transform: uppercase; position: relative;}
+.nav-list > ul > li > a::before{ content: ""; position: absolute; left: 50%; width: 0; border-bottom: 5px solid; height: 100%; bottom: 0; visibility: hidden;
+opacity: 0;}  
+.nav-list > ul > li > a:hover::before{ visibility: visible; opacity: 1; left: 0; width: 100%;}
+.nav-list.style-1 ul li:nth-child(3){ margin: 0 103px 0 0;}
+.nav-list.style-1 ul li:nth-child(4){ margin: 0 0 0 103px;}
+.navbar-btn{ display: none;}
+/* Dropdown */
+.nav-list li > ul{ list-style: none; margin: 0; padding: 0; top: 80%; border-radius: 0; position: absolute; width: 200px; 
+visibility: hidden; opacity: 0; background: #fff; z-index: 100;
+-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.19);
+-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.19);
+box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.19);}
+.nav-list li ul li{ position: relative; float: none; border-bottom: 1px solid #e1e1e1; margin: 0!important;}
+.nav-list li ul li:last-child{ border: 0;}
+.nav-list li ul li a{ width: 100%; position: relative; color: #888; padding: 15px; text-transform: capitalize; font-family: 'Lato', sans-serif; text-align: left;} 
+.nav-list li ul li a:hover{ color: #fff;}
+.nav-list li ul li a i{ color: #666; position: absolute; right: 10px; top: 50%; margin: -7px 0 0;}
+.nav-list li:hover > ul{ visibility: visible; opacity: 1; top: 100%;}
+/* Sub Menu */
+.nav-list li > ul li ul{ left: 110%; top: 0!important;}
+.nav-list li ul li:hover > ul{ visibility: visible; opacity: 1; left: 100%;}
+
+
+.logo .position-center-y {
+    left: 50%;
+    transform: translate(-50%, 0px);
+    z-index: 2;
+}
+.position-center-y {
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.nav-list > ul > li > a {
+    font-size: 16px;
+    padding: 30px 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.logo a {
+    top: 0;
+}
+/* - // - // - START : MEDIA-QUERY   - // - //  */
+
+/**for mobile phones**/
+@media only screen and (max-width: 480px), only screen and (max-device-width:480px) {}
+/**for tablet with medium screen**/
+@media only screen and (max-width: 768px), only screen and (max-device-width:768px) {}
+/**for tablet with large screen**/
+@media only screen and (max-width: 960px), only screen and (max-device-width:960px) {}
+
+
+/* - // - // - END : MEDIA-QUERY  - // - //  */
